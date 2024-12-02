@@ -11,5 +11,8 @@ class TestModule(unittest.Testvase):
       self.assertEqual(add_numbers(1, -1), 0)
       self.assertNotEqual(add_numbers(2, 2), 5)
   
+  def test_login(self):
+     self.assertEqual(login(),2)
+
 if __name__ == "__main__":
     unittest.main()
